@@ -26,7 +26,6 @@ const TopBarContainer = styled.div`
   @media (min-width: 1280px) {
     width: 1280px;
   }
-
 `;
 const TopBarContainerLeft = styled.div`
     display: flex;
@@ -36,7 +35,6 @@ const TopBarContainerLeft = styled.div`
     flex: 1;
     font-size: 11px;
 `;
-
 const LeftSpan = styled.span`
   cursor: pointer;
   margin-right: 25%;
@@ -61,7 +59,6 @@ const CenterSpan = styled.span`
     text-decoration: underline;
   }
 `;
-
 const TopBarContainerRight = styled.div`
   display: flex;
   justify-content: flex-end;
@@ -74,8 +71,6 @@ const TopBarContainerRight = styled.div`
 const RightSpan = styled.span`
   cursor: pointer;
 `;
-
-
 
 
 const TopBar = () => {
@@ -97,18 +92,3 @@ const TopBar = () => {
 }
 
 export default TopBar;
-
-
-{/* <div className="top-bar">
-  <div className="container">
-    <div className="container-left">
-      <span>TOPICS</span><span>SEARCH</span>
-    </div>
-    <div className="container-center">
-      <span>GENERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
-    </div>
-    <div className="container-right">
-      <span>LOG IN</span>
-    </div>
-  </div>
-</div> */}
